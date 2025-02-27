@@ -1,5 +1,6 @@
 <?php
 
+require_once 'header.php';
 require_once 'db.php';
 require_once 'csrf.php';
 require_once 'functions.php';
