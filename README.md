@@ -35,8 +35,6 @@ Ce projet est une application web de réservation en ligne développée en PHP (
 - **Mot de passe oublié** : 
   - Fonctionnalité "Mot de passe oublié" avec envoi d’un lien de réinitialisation par email.
   - Réinitialisation du mot de passe via un formulaire dédié.
-- **Google Places Autocomplete** :
-  - Intégration de l’API Google Places pour faciliter la saisie de l’adresse lors de l'inscription et la modification du profil.
 - **Interface Utilisateur Moderne** :
   - Interface responsive basée sur Bootstrap.
   - Barre de navigation personnalisée avec indication de la page active (soulignement).
