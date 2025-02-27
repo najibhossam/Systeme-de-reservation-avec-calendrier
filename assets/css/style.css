@@ -1,0 +1,71 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(to right, #ece9e6, #ffffff);
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+  }
+
+  .container {
+    background-color: #fff;
+    padding: 2rem;
+    margin-top: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .navbar {
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  }
+
+  .footer-container {
+    margin-top: 2rem;
+    text-align: center;
+    color: #777;
+    font-size: 0.9rem;
+  }
+  
+  .btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+    transition: background-color 0.3s;
+  }
+  
+  .btn-primary:hover {
+    background-color: #0056b3;
+    border-color: #004999;
+  }
+  
+  .form-control {
+    border-radius: 6px;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #007bff;
+  }
+  
+  a:hover {
+    color: #0056b3;
+    text-decoration: underline;
+  }
+  .my-navbar-custom {
+    background-color: #fff;
+    border-bottom: 1px solid #e2e2e2;
+  }
+  .my-navbar-custom .navbar-brand {
+    color: #000 !important;
+    font-weight: bold;
+    letter-spacing: 0.1rem;
+  }
+  .my-navbar-custom .nav-link {
+    color: #000 !important;
+    text-decoration: none;
+  }
+  .my-navbar-custom .nav-link.active {
+    text-decoration: underline !important;
+    font-weight: 500;
+  }
+  .my-navbar-custom .nav-link:hover {
+    text-decoration: none;
+  }
