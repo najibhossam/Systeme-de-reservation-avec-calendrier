@@ -32,6 +32,7 @@ $appointments = $stmtAppt->fetchAll(PDO::FETCH_ASSOC);
         <p><strong>Téléphone :</strong> <?php echo e($user['phone']); ?></p>
         <p><strong>Date de naissance :</strong> <?php echo e($user['birthdate']); ?></p>
         <a href="update_profile.php" class="btn btn-warning">Modifier</a>
+        <a href="change_password.php" class="btn btn-info">Changer mon mot de passe</a>
         <a href="delete_account.php" class="btn btn-danger" onclick="return confirm('Supprimer le compte ?')">Supprimer</a>
       </div>
     </div>
@@ -60,6 +61,4 @@ $appointments = $stmtAppt->fetchAll(PDO::FETCH_ASSOC);
   </div>
 </div>
 
-<?php
-require_once 'footer.php';
-?>
+<?php require_once 'footer.php'; ?>
